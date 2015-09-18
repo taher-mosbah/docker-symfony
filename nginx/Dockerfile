@@ -1,6 +1,4 @@
-FROM debian:jessie
-
-MAINTAINER Vincent Composieux <vincent.composieux@gmail.com>
+FROM ubuntu:14.04
 
 RUN apt-get update && apt-get install -y nginx
 
